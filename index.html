@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>weather</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>weather</h1>
+            <input class="search-box" type="text" placeholder="Pesquisar localização">
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="current-forecast">
+                <h3 class="location"></h3>
+                <section class="weather">
+                    <div></div>
+                    <p></p>
+                </section>
+                <p class="description"></p>
+                <p class="date"></p>
+    
+                <section class="more-info">
+                    <p class="feels-like"></p>
+                    <p class="humidity"></p>
+                    <p class="wind"></p>
+                    <p class="visibility"></p>
+                </section>
+            </section>
+    
+            <section class="daily-forecast">
+                <h3>Diariamente</h3>
+    
+                <div class="cards"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Feito com 💙 por Lucas Rangel</p>
+        <a href="https://github.com/lucasrngl/weather" target="_blank">Visitar no GitHub</a>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
