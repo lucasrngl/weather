@@ -6,7 +6,7 @@
 
 ## Sobre
 
-weatherNow é uma aplicação para consulta de clima da região informada pelo usuário, com uma interface que interage com o momento da requisição.
+weather é uma aplicação para consulta de clima da região informada pelo usuário, com uma interface que interage com o momento da requisição.
 
 ## Tecnologias
 
