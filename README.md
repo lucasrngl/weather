@@ -1,4 +1,4 @@
-# weatherNow
+# weather
 
 <p align="center">
   <img alt="weather" src="./assets/weather.png" width="100%">
